@@ -1,0 +1,65 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 Rolex
+      span.badge.pull-right.badge-default $250
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Founder
+            .panel-body
+              h3 Hans Wilsdorf
+        .col-xs-12.col-sm-6.book-preview
+          h1
+          </br>
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Watch Preview
+            .panel-body
+              .img 
+                img(src='/images/rolex.jpg', alt='Rolex')
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new') Add review
+              h2.panel-title Customer reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Rohith Reddy
+                    small.reviewTimestamp 16 July 2013
+                  .col-xs-12
+                    p I've had my Rolex Submariner for over a decade, and it still looks and operates flawlessly. Truly a testament to Rolex's quality and craftsmanship. Worth every penny.
+                  .row
+                    .review
+                      .well.well-sm.review-header
+                        span.rating
+                          span.glyphicon.glyphicon-star
+                          span.glyphicon.glyphicon-star
+                          span.glyphicon.glyphicon-star
+                          span.glyphicon.glyphicon-star
+                          span.glyphicon.glyphicon-star-empty
+                        span.reviewAuthor Rupendhar Reddy
+                        small.reviewTimestamp 14 May 2016
+                      .col-xs-12
+                        p While I adore the aesthetics and history behind my Rolex GMT Master II, I was a bit disappointed with the long wait time when purchasing from an authorized dealer. The demand is just too high for these!
+        .col-xs-12.col-md-3
