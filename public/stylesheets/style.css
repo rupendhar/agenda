@@ -4,10 +4,18 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #d57221;
 }
 .review {padding-bottom: 5px;}
+.panel-body.overview-container {padding-top: 0;}
 .panel-body.review-container {padding-top: 0;}
 .review-header {margin-bottom: 10px;}
 .reviewAuthor {margin: 0 5px;}
 .reviewTimestamp {color: #ccc;}
+
+.img {
+  width: 250px;
+  height: 200px;
+  max-width: 100%;
+  max-height: 100%;
+}
